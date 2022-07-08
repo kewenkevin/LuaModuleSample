@@ -1,0 +1,7 @@
+require("LuaModules.metaMethod")
+require("LuaModules.handler")
+require ("LuaModules.stringExr")
+require ("LuaModules.tableExr")
+require ("LuaModules.class")
+require ("LuaModules.safeCall")
+Promise = require ("LuaModules.Promise.Promise")

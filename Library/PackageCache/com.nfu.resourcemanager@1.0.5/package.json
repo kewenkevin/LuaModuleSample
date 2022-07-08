@@ -1,0 +1,27 @@
+{
+  "name": "com.nfu.resourcemanager",
+  "displayName": "[Base] ResourceManager",
+  "version": "1.0.5",
+  "unity": "2018.4",
+  "description": "\u8d44\u6e90\u7ba1\u7406\u5668\n\u672c\u7cfb\u7edf\u57fa\u4e8eGameFramework\u7684AssetBundle\u7ba1\u7406\u5668\uff0c\u652f\u6301\u7f16\u8f91\u5668\u6a21\u5f0f\u4e0e\u8fd0\u884c\u65f6\u6a21\u5f0f\u5207\u6362\uff0c\u5b9a\u5236\u8d44\u6e90\u5305\u5206\u6790\u7b56\u7565\uff0c\u8d44\u6e90\u751f\u5b58\u671f\u7ba1\u7406\uff0c\u53d8\u4f53\u76ee\u5f55\u7b49\u4e30\u5bcc\u7684\u8d44\u6e90\u63a5\u53e3\u3002",
+  "dependencies": {
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "documentationUrl": "https://gbz8woes0z.feishu.cn/docs/doccn3tss85egIHlTVD9Lyup9Se#",
+  "hideInEditor": false,
+  "author": {
+    "name": "NFU",
+    "email": "unity@nd.com",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "\u6837\u4f8b",
+      "description": "",
+      "path": "Example"
+    }
+  ]
+}

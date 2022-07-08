@@ -1,0 +1,10 @@
+{
+  "name": "com.nfu.tools.luatools",
+  "version": "1.0.0",
+  "displayName": "[Tools] LuaTools",
+  "description": "lua\u5de5\u5177\u5957\u4ef6\uff0c\u76ee\u524d\u542b\u6709\uff1a\nLuaCmd,LuaIDELog",
+  "documentationUrl": "https://docs.qq.com/doc/DZkVxQnphcnZlV0VU",
+  "keywords": [
+    "lua"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "NFU.Tools.LuaCmd",
+    "rootNamespace": "",
+    "references": [
+        "Yoozoo.Managers.XLua"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

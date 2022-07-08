@@ -1,0 +1,41 @@
+﻿
+
+.container {
+    /*background-color: gray;*/
+    flex-direction: row;
+    border-bottom-width: 6px;
+    border-bottom-color: gray;
+}
+.container .contentContainer {
+    flex-direction: column;
+    border-right-width: 2px;
+    border-right-color: gray;
+}
+.container .history {
+    width: 200px;
+    border-right-color: gray;
+    border-right-width: 2px;
+}
+.container .contentContainer .cmdContentScroll {
+    width: 600px;
+    height: 600px;
+}
+.container .contentContainer .cmdContentScroll .cmdContent {
+    -unity-font-style: normal;
+    /*height: 600px;*/
+    -unity-text-align: upper-left;
+}
+.body {
+    flex-direction: column;
+    padding-left: 4px;
+    padding-right:4px;
+    padding-top:4px;
+}
+.toolbar {
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: dimgray;
+ }
+.toolbar .btn-execute {
+    align-items: flex-end;
+}

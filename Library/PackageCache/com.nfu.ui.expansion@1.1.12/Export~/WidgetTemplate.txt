@@ -1,0 +1,40 @@
+local UIWidgetBase = require("LuaModules.UILib.Base.UIWidgetBase")
+
+---@class ????? : UIWidgetBase
+local ????? = class("?????", UIWidgetBase)
+
+---Listen 监控模块数仓变化，这里注册事件接口
+function ?????:Listen()
+	return{
+	}
+end
+
+---@see UIWidgetBase#observerDataStore
+---observerDataStore 监控模块数仓数据变化，这里注册响应接口
+function ?????:observerDataStore()
+    return {
+	}
+end
+
+---methods 构造绑定的方法列表， 用来完成和子模块emit事件响应注册
+function ?????:methods()
+
+end
+
+---@see UIWidgetBase#onPreData
+---onPreData 在Widget创建实例时触发，一个实例只会触发一次，这时还未执行onPreData
+function ?????:onPreData()
+
+end
+
+--region 页面生命周期
+---@see UIWidgetBase#onCreated
+---onCreated 界面复写 界面复写 在Panel创建实例时触发，一个实例只会触发一次，这时已完成进行数据绑定
+function ?????:onCreated(obj,options)
+    
+end
+
+---@see UIWidgetBase#onDestroy
+---onDestroy 界面复写 在Page实例销毁时触发
+function ?????:onDestroy(options)
+end

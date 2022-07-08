@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="content" class="box" style="justify-content: flex-start;">
+        <Style src="/Packages/com.nfu.resourcemanager/Editor/USS/ResourceComparerWindow.uss" />
+        <uie:Toolbar style="display: none;">
+            <uie:ToolbarButton text="All (0)" name="toolbar_all" />
+            <uie:ToolbarButton text="Added (0)" name="toolbar_added" />
+            <uie:ToolbarButton text="Changed (0)" name="toolbar_changed" />
+            <uie:ToolbarButton text="Removed (0)" name="toolbar_removed" />
+            <uie:ToolbarButton text="Expand" name="toolbar_expand" />
+        </uie:Toolbar>
+        <ui:VisualElement name="list_box" style="overflow: visible; display: flex;">
+            <ui:ListView focusable="true" name="list" item-height="20" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content_msg_box" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; display: flex;">
+            <ui:Label text="Drag file to here&#10;(.dat, AssetBundleManifest, AssetBundle)" name="msg" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

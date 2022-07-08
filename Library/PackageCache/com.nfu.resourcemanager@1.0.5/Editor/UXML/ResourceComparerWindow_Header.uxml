@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="content_header" class="box" style="justify-content: flex-start;">
+        <Style src="/Packages/com.nfu.resourcemanager/Editor/USS/ResourceComparerWindow.uss" />
+        <ui:VisualElement>
+            <ui:Button text="←" name="left_arrow" class="label-button" />
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; align-items: center;">
+                <ui:Label text="Title" name="header_title" />
+                <ui:Button text="✕" name="close" class="label-button" />
+            </ui:VisualElement>
+            <ui:Button text="→" name="right_arrow" class="label-button" />
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Button text="↻" name="refresh" />
+            <ui:TextField picking-mode="Ignore" value="filler text" name="source" tooltip="file, http://" />
+            <ui:Button text="..." name="select_file" class="label-button" />
+        </ui:VisualElement>
+        <ui:Label text="Error" name="error" class="error" />
+        <ui:ListView focusable="true" name="list" item-height="18" />
+        <uie:Toolbar>
+            <uie:ToolbarToggle name="toolbar_all" text="All (0)" />
+            <uie:ToolbarToggle text="Added (0)" name="toolbar_added" />
+            <uie:ToolbarToggle name="toolbar_changed" text="Changed (0)" />
+            <uie:ToolbarToggle name="toolbar_removed" text="Removed (0)" />
+            <uie:ToolbarToggle name="toolbar_expand" text="Expand" />
+        </uie:Toolbar>
+    </ui:VisualElement>
+</ui:UXML>

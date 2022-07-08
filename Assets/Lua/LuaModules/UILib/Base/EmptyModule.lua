@@ -1,0 +1,1 @@
+return class("",require("LuaModules.UILib.Base.ModuleBase"))

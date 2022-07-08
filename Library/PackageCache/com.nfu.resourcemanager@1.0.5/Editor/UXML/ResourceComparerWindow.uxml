@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="flex-grow: 1; flex-basis: 100%;">
+        <Style src="/Packages/com.nfu.resourcemanager/Editor/USS/ResourceComparerWindow.uss" />
+        <ui:VisualElement name="content_headers">
+            <ui:VisualElement name="items" />
+            <ui:Button text="+" name="add" />
+        </ui:VisualElement>
+        <uie:Toolbar name="toolbar">
+            <uie:ToolbarSearchField focusable="true" name="filter" />
+        </uie:Toolbar>
+        <ui:VisualElement name="contents" />
+    </ui:VisualElement>
+</ui:UXML>

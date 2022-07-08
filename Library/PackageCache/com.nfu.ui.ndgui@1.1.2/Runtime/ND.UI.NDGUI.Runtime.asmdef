@@ -1,0 +1,19 @@
+{
+    "name": "ND.UI.NDGUI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "ND.Base.Core.Runtime",
+        "ND.UI.Core.Runtime",
+        "ND.UI.I18n.Runtime",
+        "ND.UI.NDEvents.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceSettings version="1">
+    <Excludes />
+    <SetAssetBundleName>False</SetAssetBundleName>
+    <AutoAnalysisOnBuild>False</AutoAnalysisOnBuild>
+    <CopyToStreamingAssets>False</CopyToStreamingAssets>
+    <PerformanceLogEnabled>False</PerformanceLogEnabled>
+    <AtlasDirectorySeparator>_</AtlasDirectorySeparator>
+    <StripAutoDependency>False</StripAutoDependency>
+    <AssetRootPath>
+    </AssetRootPath>
+    <CheckMissingPrefab>False</CheckMissingPrefab>
+    <AssetIncludeLabel>
+    </AssetIncludeLabel>
+    <AssetBundleNameFormat>
+    </AssetBundleNameFormat>
+    <ResourcePackedExclude>
+    </ResourcePackedExclude>
+    <OutputAssetHash>True</OutputAssetHash>
+    <ResourceGroups />
+  </ResourceSettings>
+</UnityGameFramework>

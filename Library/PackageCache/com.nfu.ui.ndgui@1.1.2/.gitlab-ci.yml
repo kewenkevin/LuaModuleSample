@@ -1,0 +1,38 @@
+stages:
+  - npm
+  
+variables:
+  PYTHON_VAR: "C:/Users/Administrator/AppData/Local/Programs/Python/Python38/python"
+  PYSCRIPT_VAR: "d:/GitLab-Runner/NPMPipeline/NPMPipeline.py"
+  
+publish_dev:
+  # 推送到devnpm服务器
+  timeout: 20m
+  stage: npm
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^release/ 
+      changes:
+      - package.json
+  script:
+    - echo "Start Push Preview Package To DevNPM"
+    - |
+      echo "Package check start..."
+      $uPath = cmd /c chdir
+      $uPath
+      C:/Users/Administrator/AppData/Local/Programs/Python/Python38/python d:/GitLab-Runner/NPMPipeline/NPMPipeline.py $uPath dev $CI_JOB_NAME $CI_COMMIT_BRANCH
+    - echo "Package check complete."
+  
+publish:
+  timeout: 20m
+  stage: npm
+  rules:
+    - if: $CI_COMMIT_TAG 
+  script:
+    - echo "Start Push Package To DevNPM"
+    - |
+      echo "Package check start..."
+      $uPath = cmd /c chdir
+      $uPath
+      C:/Users/Administrator/AppData/Local/Programs/Python/Python38/python d:/GitLab-Runner/NPMPipeline/NPMPipeline.py $uPath dev $CI_JOB_NAME $CI_COMMIT_TAG 
+    - echo "Package check complete."
+  

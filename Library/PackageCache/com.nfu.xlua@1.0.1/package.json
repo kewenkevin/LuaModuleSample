@@ -1,0 +1,21 @@
+{
+  "name": "com.nfu.xlua",
+  "displayName": "[Base]XLua",
+  "version": "1.0.1",
+  "unity": "2018.4",
+  "description": "NFU\u91cd\u65b0\u8c03\u6574\u4ee5\u53ca\u7ef4\u62a4\u7684XLua\u7684\u5305\u3002\u4f7f\u7528Lua5.3\uff0c\u540c\u65f6\u5f00\u542f\u4e8664\u4f4d\u548c32\u4f4d\u517c\u5bb9\u6a21\u5f0f\u7684\u5b57\u8282\u7801\u3002\u5df2\u7ecf\u6574\u5408Luaprotobuf\uff0ccjson\u7b49\u51e0\u4e2a\u5e38\u7528\u7684\u4e09\u65b9\u5e93\u3002\u5bfc\u5165\u5305\u540e\u9700\u8981\u70b9\u51fbTools\u83dc\u5355\u4e0b\u7684\u5c55\u5f00\u6765\u5c06\u90e8\u5206\u4ee3\u7801\u5e94\u7528\u5230\u9879\u76ee\u91cc\u3002",
+  "documentationUrl": "https://docs.qq.com/doc/DWERvdnlSWk9ieW1N",
+  "samples": [
+    {
+      "displayName": "XLua Samples",
+      "description": "XLua Samples",
+      "path": "Samples~/StandardUseCases"
+    }
+  ],
+  "hideInEditor": false,
+  "author": {
+    "name": "NFU",
+    "email": "unity@nd.com",
+    "url": ""
+  }
+}

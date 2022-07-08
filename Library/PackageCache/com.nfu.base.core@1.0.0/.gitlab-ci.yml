@@ -1,0 +1,72 @@
+stages:
+  - install
+  - pack
+  - publish
+install:
+    timeout: 20m
+    stage: install
+    script:
+      - echo "$CI_PROJECT_PATH"
+      - |
+        curPath=`pwd`
+        echo ${curPath}
+        cd ..
+        if [ ! -d "PublishToNpm/" ]; then
+            git clone git@gitlab.uuzu.com:yoozooopensource/client/other/publishtonpm.git    
+        else
+            cd PublishToNpm
+            git fetch
+            if [ $DEV_PUBLISH -eq 0 ]; then
+                git checkout master
+            else
+                git checkout develop
+            fi
+            git reset --hard
+            git clean -f
+            git pull
+        fi
+    only:
+      - web
+    tags:
+      - imacpro
+pack:
+    timeout: 20m
+    stage: pack
+    script:
+      - echo "start pack"
+      - |
+        packageName=$(cat package.json | awk -F"[,:}]" '{for(i=1;i<=NF;i++){if($i~/'name'\042/){print $(i+1)}}}' | tr -d '"' | sed -n 1p)
+        curPath=`pwd`
+        cd ../PublishToNpm
+        path=`pwd`
+        mv Packages/manifest.json ./
+        rm -rf Packages/*
+        mv manifest.json Packages/
+        cp -r ${curPath} ${path}/Packages/
+        echo ${packageName}
+        $UNITY_PATH  -logFile ${path}/Log/publish.log -buildTarget Android -projectPath ${path} -executeMethod PackageBuilder.Publish -packageName ${packageName}
+        cat ${path}/Log/publish.log
+      - echo "success"
+    only:
+      - web
+    tags:
+      - imacpro
+publish:
+    timeout: 20m
+    stage: publish
+    script:
+    - echo "start publish"
+    - |
+      cd ../PublishToNpm
+      path=`pwd`
+      packagePath=$(cat ${path}/publish.txt)
+      onlinePubSvr="http://npm-pub.uuzu.com/repository/DevNpm/"
+      devPubSvr="http://10.18.98.210:80/repository/DevNpm/"
+      publishServer=$([[ "$DEV_PUBLISH" == 0 ]] && echo "$onlinePubSvr" || echo "$devPubSvr")
+      echo "Target NPM Server：" $publishServer
+      npm publish $packagePath --registry=$publishServer
+    - echo "success"
+    only:
+      - web
+    tags:
+      - imacpro

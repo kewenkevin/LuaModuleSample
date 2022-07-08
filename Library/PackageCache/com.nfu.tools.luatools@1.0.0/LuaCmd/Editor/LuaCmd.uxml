@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="UnityEngine.UIElements"
+
+        xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="
+                        UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    <VisualElement name="body" class="body">
+        <VisualElement name="toolbar" class="toolbar">
+            <Button text="添加" name="btn-add" />
+            <Button text="执行" name="btn-execute" class="btn-execute"/>
+        </VisualElement>
+        <VisualElement name="container" class="container">
+            <ListView name="history" class="history" />
+            <VisualElement name="contentContainer" class="contentContainer">
+                <TextField label="title:" name="title" class="title" value="" />
+                <ScrollView class="cmdContentScroll" show-vertical-scroller="true">
+                    <TextField name="cmdContent" class="cmdContent" value="" multiline="true" />
+                </ScrollView>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+</UXML>

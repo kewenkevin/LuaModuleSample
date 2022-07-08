@@ -1,0 +1,30 @@
+{
+  "name": "com.nfu.ui.expansion",
+  "version": "1.1.12",
+  "displayName": "[Gameplay] UIExpansion",
+  "description": "UIExpansion\u529f\u80fd\n\u63d0\u4f9b\u5bfc\u51fa\u63a7\u4ef6\n\u63d0\u4f9b\u754c\u9762\u52a8\u6548Transition\n\u63d0\u4f9b\u63a7\u5236\u5668Controller",
+  "unity": "2018.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.nfu.base.core": "1.0.0",
+    "com.nfu.ui.ndgui": "1.1.2"
+  },
+  "keywords": [
+    "UI"
+  ],
+  "author": {
+    "name": "NFU",
+    "email": "unity@nd.com",
+    "url": ""
+  },
+  "documentationUrl": "https://docs.qq.com/doc/DVW1mSHFOakFZdU5i",
+  "samples": [
+    {
+      "displayName": "UIExpansion Samples",
+      "description": "UIExpansion Samples",
+      "path": "Samples~/UIExpansion"
+    }
+  ]
+}

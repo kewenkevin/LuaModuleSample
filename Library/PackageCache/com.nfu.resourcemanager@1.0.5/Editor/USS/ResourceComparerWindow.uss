@@ -1,0 +1,292 @@
+VisualElement {
+}
+
+.alternate {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+#content_headers {
+    min-height: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 0;
+    align-items: stretch;
+}
+
+#content_headers #items {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#content_headers #items > * {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#content_headers #add {
+    width: 20px;
+    position: relative;
+}
+
+#content_header {
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#content_header > * {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#content_header #left_arrow {
+}
+
+#content_header #header_title {
+    -unity-text-align: upper-right;
+    white-space: nowrap;
+    flex-shrink: 2;
+}
+
+#content_header #close {
+    justify-content: flex-start;
+}
+
+#content_header #right_arrow {
+}
+
+#content_header #refresh {
+}
+
+#content_header #source {
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 0.5;
+}
+
+#toolbar {
+    flex-direction: row;
+}
+
+#toolbar #filter {
+    flex-grow: 1;
+}
+
+.label-button {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#content_header #list {
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.error {
+    background-color: rgba(77, 77, 77, 0);
+    color: rgb(255, 0, 0);
+    -unity-font-style: bold;
+    font-size: 15px;
+    -unity-text-align: upper-center;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.5);
+    border-right-color: rgba(0, 0, 0, 0.5);
+    border-top-color: rgba(0, 0, 0, 0.5);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#content_header .list_item {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#content_header .list_item #name {
+    width: 200px;
+}
+
+#content_header .list_item #value {
+}
+
+#content_header #source {
+    -unity-text-align: upper-right;
+}
+
+#content_msg_box {
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    justify-content: space-between;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+#content {
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#content #msg {
+    -unity-font-style: normal;
+    -unity-text-align: upper-center;
+    font-size: 15px;
+}
+
+#content #list {
+    flex-grow: 1;
+}
+
+#content #list_box {
+    flex-grow: 1;
+}
+
+#contents {
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 100%;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+#content .list_item {
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#content .list_item #num {
+    margin-right: 7px;
+    min-width: 20px;
+    margin-top: 1px;
+}
+
+#content .list_item #value {
+    overflow: hidden;
+    font-size: 13px;
+    white-space: nowrap;
+    -unity-text-align: middle-left;
+}
+
+#content_scrollview {
+    flex-grow: 1;
+    flex-shrink: 2;
+    justify-content: space-between;
+}
+
+#content_header Toolbar {
+    margin-left: 2px;
+}
+
+#content_header Toolbar > * {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
+    -unity-text-align: middle-center;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+#content .list_item .expand {
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+#content .list_item .expand_item {
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#content .list_item .expand_item #expand_name {
+    width: 150px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.12);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#content .cmp_item_added {
+    background-color: rgba(45, 108, 45, 0.7);
+}
+
+#content .cmp_item_changed {
+    background-color: rgba(74, 74, 132, 0.7);
+}
+
+#content .cmp_item_removed {
+    background-color: rgba(154, 50, 50, 0.7);
+}
+
+#toolbar_all {
+    -unity-text-align: upper-center;
+    justify-content: center;
+}
+
+#toolbar_added {
+    color: rgba(45, 108, 45, 0.7);
+}
+
+#toolbar_changed {
+    color: rgba(74, 74, 132, 0.7);
+}
+
+#toolbar_removed {
+    color: rgba(154, 50, 50, 0.7);
+}
+
+.drag_over {
+    background-color: rgb(58, 71, 123);
+}
+
+#content_header ToolbarToggle Label {
+    flex-basis: 100%;
+}

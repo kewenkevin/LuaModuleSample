@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 49c8c04bf3c466643b4183347cbf1635
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2893926002609541769
+    second: chengjiu_BOSS
+  - first:
+      213: -5661667705510007890
+    second: chengjiu_chengjiudiban
+  - first:
+      213: 8139065270828737917
+    second: chengjiu_chengjiumingzitiao
+  - first:
+      213: 3281804289018205768
+    second: chengjiu_dikuang1
+  - first:
+      213: -604524881363663552
+    second: chengjiu_duanjinchangtiao1
+  - first:
+      213: 4529428285994384240
+    second: chengjiu_duanjinchangtiao2
+  - first:
+      213: 1469246374225751011
+    second: chengjiu_duanjindutiao1
+  - first:
+      213: -6271777970034845773
+    second: chengjiu_duanjindutiao2
+  - first:
+      213: 6203935712233908259
+    second: chengjiu_heixian1
+  - first:
+      213: -2840113046220062892
+    second: chengjiu_rukouanniu
+  - first:
+      213: -877096470655526529
+    second: chengjiu_xiaosanjiao
+  - first:
+      213: 2789903603393759051
+    second: chengjiu_xuanquanniu
+  - first:
+      213: -535804773239980562
+    second: chengjiu_xuanqudikuang
+  - first:
+      213: -6233300965146119207
+    second: chengjiu_xuanqukuang
+  - first:
+      213: 6775179900948586727
+    second: chengjiu_xuanqutiao
+  - first:
+      213: -1555661786535892007
+    second: chengjiu_yuanquan1
+  - first:
+      213: -613181733599728057
+    second: "chengjiu_\u4E5D\u5DDE"
+  - first:
+      213: -5148542541877712315
+    second: "chengjiu_\u4EBA\u7269"
+  - first:
+      213: -7996113498244233011
+    second: "chengjiu_\u6CD5\u5B9D"
+  - first:
+      213: -5505366508533566529
+    second: "chengjiu_\u722C\u5854"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chengjiu_BOSS
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 293
+        width: 187
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d213022a5b6d7d0800000000000000
+      internalID: -2893926002609541769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_chengjiudiban
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 475
+        width: 276
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab66c8f737bd61b0800000000000000
+      internalID: -5661667705510007890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_chengjiumingzitiao
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 742
+        width: 233
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75277fbdb4c3f070800000000000000
+      internalID: 8139065270828737917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_dikuang1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 846
+        width: 957
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8469845fc9f4b8d20800000000000000
+      internalID: 3281804289018205768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_duanjinchangtiao1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 817
+        width: 390
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0450f64c2db4c97f0800000000000000
+      internalID: -604524881363663552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_duanjinchangtiao2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 788
+        width: 390
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b3d463703cbde30800000000000000
+      internalID: 4529428285994384240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_duanjindutiao1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 822
+        width: 152
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eba14ffacfc36410800000000000000
+      internalID: 1469246374225751011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_duanjindutiao2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 798
+        width: 152
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7d3f16a2b26f8a0800000000000000
+      internalID: -6271777970034845773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_heixian1
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 823
+        width: 172
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328ef0119aec81650800000000000000
+      internalID: 6203935712233908259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_rukouanniu
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 18
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fb9166b34e598d0800000000000000
+      internalID: -2840113046220062892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_xiaosanjiao
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 964
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7914d0386de3d3f0800000000000000
+      internalID: -877096470655526529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_xuanquanniu
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 753
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b470ed5bb8ab7b620800000000000000
+      internalID: 2789903603393759051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_xuanqudikuang
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 985
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed7216c5607098f0800000000000000
+      internalID: -535804773239980562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_xuanqukuang
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 299
+        width: 256
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3bd523ccdde79a0800000000000000
+      internalID: -6233300965146119207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_xuanqutiao
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 691
+        width: 217
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e028653936460e50800000000000000
+      internalID: 6775179900948586727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chengjiu_yuanquan1
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 721
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbe0eee8dd296ae0800000000000000
+      internalID: -1555661786535892007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "chengjiu_\u4E5D\u5DDE"
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 352
+        width: 172
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ea70a467a8d77f0800000000000000
+      internalID: -613181733599728057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "chengjiu_\u4EBA\u7269"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 148
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a646816d3bc88b0800000000000000
+      internalID: -5148542541877712315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "chengjiu_\u6CD5\u5B9D"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 166
+        width: 120
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc842797329180190800000000000000
+      internalID: -7996113498244233011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "chengjiu_\u722C\u5854"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 160
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3368444520993b0800000000000000
+      internalID: -5505366508533566529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8c7deda618900094887aa16e74e68ce3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: assets/sample/resourcemanager/resourcesassets/atlas/achievement_atlas_png
+  assetBundleVariant: 

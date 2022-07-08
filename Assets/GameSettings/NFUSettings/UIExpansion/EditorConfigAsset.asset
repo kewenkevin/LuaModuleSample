@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa2e200485e47598aeaee2238b8723b, type: 3}
+  m_Name: EditorConfigAsset
+  m_EditorClassIdentifier: 
+  luaFolderPathArray:
+  - Lua
+  luaExporterClass: CustomLuaExporter
+  goPrefix: E_
+  nfuModule: self.M_AAA = self:registerModule("M_AAA","BBB",self.AAA.GameObject)
+  nfuCallback: handler(self,?????)
+  defaultOpenAni: {fileID: 0}
+  defaultCloseAni: {fileID: 0}
+  pageTemplate: {fileID: 4900000, guid: 5384d41868466d34d888f7b46cf3f67e, type: 3}
+  moduleTemplate: {fileID: 4900000, guid: bb18e27cd468afe4f9c14251d7d50b98, type: 3}
+  widgetTemplate: {fileID: 4900000, guid: 1d1225d062811da4587e831091fca794, type: 3}

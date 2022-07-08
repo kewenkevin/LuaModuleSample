@@ -1,0 +1,23 @@
+{
+    "name": "ND.UI.NDGUI.Editor",
+    "rootNamespace": "",
+    "references": [
+        "ND.UI.NDGUI.Runtime",
+        "ND.UI.NDEvents.Runtime",
+        "ND.Base.Core.Runtime",
+        "ND.UI.Core.Runtime",
+        "ND.UI.Core.Editor",
+        "ND.UI.I18n.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

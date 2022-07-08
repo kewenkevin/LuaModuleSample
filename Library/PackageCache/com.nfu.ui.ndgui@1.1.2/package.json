@@ -1,0 +1,31 @@
+{
+  "name": "com.nfu.ui.ndgui",
+  "displayName": "[External] NDGUI",
+  "version": "1.1.2",
+  "unity": "2018.3",
+  "unityRelease": "18f1",
+  "keywords": [
+    "ui",
+    "unity"
+  ],
+  "dependencies": {
+    "com.nfu.base.core": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "author": {
+    "name": "NFU",
+    "email": "unity@nd.com",
+    "url": ""
+  },
+  "documentationUrl": "https://docs.qq.com/doc/DVVVjZEtycmF2UVVR",
+  "type": "library",
+  "description": "NDGUI\u63a7\u4ef6\u5e93\n\u63d0\u4f9b\u5f3a\u5927\u7684NDGUI\u63a7\u4ef6\u6765\u4e30\u5bcc\u539f\u751fUGUI\n\u4f7fUI\u5236\u4f5c\u66f4\u52a0\u5f97\u5fc3\u5e94\u624b",
+  "samples": [
+    {
+      "displayName": "NDGUI Samples",
+      "description": "NDGUI Samples",
+      "path": "Samples~/GUI"
+    }
+  ]
+}
